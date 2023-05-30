@@ -17,7 +17,7 @@ public class StringListImpl implements StringList {
         arrayStrings = new String[initialSize];
     }
 
-    public StringListImpl(String[] ar){
+    public StringListImpl(String[] ar) {
         this.arrayStrings = ar;
     }
 
@@ -199,7 +199,7 @@ public class StringListImpl implements StringList {
     }
 
     public boolean equals(StringList otherList) {
-        if(otherList==null){
+        if (otherList == null) {
             throw new NullElementException();
         }
 
