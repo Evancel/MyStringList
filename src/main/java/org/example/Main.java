@@ -6,16 +6,16 @@ public class Main {
     public static void main(String[] args) {
         StringList myList = new StringListImpl(2);
 
-        myList.set(0,"Monday");
-        myList.set(1,"Tuesday");
-        myList.set(2,"Wednesday");
-        myList.set(1,"Thursday");
-        myList.set(14,"Frayday");
-        myList.set(4,"Friday");
-        myList.set(6,"Saturday");
-        myList.set(66,"Sunday");
-        myList.set(26,"Sunday");
-        myList.set(8,"Wednesday");
+        myList.set(0, "Monday");
+        myList.set(1, "Tuesday");
+        myList.set(2, "Wednesday");
+        myList.set(1, "Thursday");
+        myList.set(14, "Frayday");
+        myList.set(4, "Friday");
+        myList.set(6, "Saturday");
+        myList.set(66, "Sunday");
+        myList.set(26, "Sunday");
+        myList.set(8, "Wednesday");
 
         myList.remove(3);
         System.out.println(myList.indexOf("Sundayy"));
@@ -23,8 +23,8 @@ public class Main {
         System.out.println(myList.contains("Friday "));
 
         System.out.println(myList);
-        // myList.clear();
-        // System.out.println(myList);
+        myList.clear();
+        System.out.println(myList);
         String[] copyList = myList.toArray();
         System.out.println(Arrays.toString(copyList));
 
